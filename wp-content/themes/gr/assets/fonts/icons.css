@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'gray';
+  src:  url('gray.eot');
+  src:  url('gray.eot') format('embedded-opentype'),
+    url('gray.bin') format('truetype'),
+    url('gray.woff') format('woff'),
+    url('gray.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'gray' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\e900";
+}
+.icon-bank-cart:before {
+  content: "\e901";
+}
+.icon-cart:before {
+  content: "\e902";
+}
+.icon-cart2:before {
+  content: "\e903";
+}
+.icon-checkmark:before {
+  content: "\e904";
+}
+.icon-clock:before {
+  content: "\e905";
+}
+.icon-fb:before {
+  content: "\e906";
+}
+.icon-instagram:before {
+  content: "\e907";
+}
+.icon-location:before {
+  content: "\e908";
+}
+.icon-mail:before {
+  content: "\e909";
+}
+.icon-minus:before {
+  content: "\e90a";
+}
+.icon-multiply:before {
+  content: "\e90b";
+}
+.icon-pencil:before {
+  content: "\e90c";
+}
+.icon-person:before {
+  content: "\e90d";
+}
+.icon-phone:before {
+  content: "\e90e";
+}
+.icon-plus:before {
+  content: "\e90f";
+}
+.icon-point-empty:before {
+  content: "\e910";
+}
+.icon-point-full:before {
+  content: "\e911";
+}
+.icon-refresh:before {
+  content: "\e912";
+}
+.icon-truck:before {
+  content: "\e913";
+}
+.icon-vk:before {
+  content: "\e914";
+}
+.icon-youtube:before {
+  content: "\e915";
+}
